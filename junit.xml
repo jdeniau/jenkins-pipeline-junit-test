@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<testsuite name="Typescript type errors" tests="1" failures="1">
+  <testcase 
+    name="TS2322"
+    file="README.md"
+    line="1"
+    column="3"
+  >
+    <failure type="TS2322" message="Type '{ canManageCoupon: boolean; }' is not assignable to type 'IntrinsicAttributes &amp; { cart?: Cart | undefined; children?: ReactNode; } &amp; RefAttributes&lt;unknown>'."/>
+  </testcase>
+</testsuite>
