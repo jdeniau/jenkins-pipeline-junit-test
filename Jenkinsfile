@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     stages {
-        stage('get github PR description') {
+        stage('publish junit file') {
             steps {
                 script {
                   // withChecks('Junit') {
